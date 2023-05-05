@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 *{
-    background: #7C4032;
+
     margin: 0%;
 }
-body{
+#Servicos{
+    margin: 0px;
+    background: #7C4032;
     overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }
+
 .titulo{
     font-family: 'Poppins', sans-serif;
     font-size: 46px;
