@@ -1,0 +1,97 @@
+
+#Home {
+    width: 100vw;
+    height: 100vh;
+}
+.meio{
+    background-image: url(/Image\ -\ EXPORTAR.png);
+    background-color: #FEF4DE;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+#cima{
+    height: 12vh;
+    width:98.5vw;
+    background: #7C4032;
+    padding:10px;
+    clip-path: polygon(50% 0%, 100% 80%, 100% 0%);  
+}
+#baixo{
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #7C4032;
+    width:98.5vw;
+    height: 27vh;
+    clip-path: polygon(0% 100%, 100% 100%, 0% 15%);
+   }
+
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10vh;
+}
+
+.tituloo {
+    font-family: 'Poppins', sans-serif;
+    color: #663128;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;   
+    margin-left: 4vh;
+    gap: 7vh;
+}
+.botao button{
+    font-family: 'poppins', sans-serif;
+    color: #663128;
+    font-weight: 600;
+    font-size: 17px;
+    background: #F3CE5E;
+    box-shadow: 0vh 2vh 4vh rgba(243, 206, 94, 0.2);
+    border-radius: 5vh;
+    height: 8vh;
+    width: 24vh;
+    border: 1vh solid #F3CE5E;  
+    margin-left: -4vh;
+}
+.botao p{
+    font-family: 'poppins', sans-serif;
+    color: #663128;
+    font-weight: 600;
+    font-size: 17px;
+}
+.titulo h1{
+    font-size: 80px;
+    line-height: 60px;
+    font-weight: 900;
+}
+.titulo h2{
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 2.8vh;
+    margin-left: 1vw;
+}
+
+.titulo p{
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 3.5vh;
+}
+
+.desenho img{
+    width: 60vh;
+    height: 60vh;
+}

@@ -1,0 +1,80 @@
+
+.tudo-contatos h1{
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+    color: #7C4032;
+}
+
+.tudo-contatos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.div2{
+    display: flex;
+
+}
+
+.caixas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixas input{
+    border-radius: 61px;
+    border: none;
+    background-color: #E5AF99;
+    width: 374px;
+    height: 56px;
+    margin: 10px;
+}
+
+.caixas button{
+    align-items: center;
+    width: 168px;
+    height: 56px;
+    border: 3px solid #7C4032;
+    border-radius: 61px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    color: #7C4032;
+    background-color: white;
+}
+
+.conts{
+    width: 20rem;
+    text-align: justify;
+    padding: 60px;
+    margin-top: -2rem;
+}
+
+.conts img{
+    width: 20px;
+    height: 16px;
+    padding: 15px;
+}
+
+.div-conts {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .conts p{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+  }
