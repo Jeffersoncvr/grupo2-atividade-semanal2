@@ -2,10 +2,10 @@
 #Home {
     width: 100vw;
     height: 100vh;
-}
-.meio{
     background-image: url(/Image\ -\ EXPORTAR.png);
     background-color: #FEF4DE;
+}
+.meio{
     background-size: cover;
     display: flex;
     align-items: center;
@@ -47,45 +47,41 @@
     align-items: center;
 }
 
-.botao{
+.botaoooo{
     display: flex;
     justify-content: flex-start; 
     align-items: center;   
     margin-left: 4vh;
     gap: 7vh;
 }
-.botao button{
+.botaoooo button{
     font-family: 'poppins', sans-serif;
     color: #663128;
     font-weight: 600;
     font-size: 17px;
     background: #F3CE5E;
-    box-shadow: 0vh 2vh 4vh rgba(243, 206, 94, 0.2);
     border-radius: 5vh;
-    height: 8vh;
-    width: 24vh;
     border: 1vh solid #F3CE5E;  
-    margin-left: -4vh;
 }
-.botao p{
+.botaoooo p{
     font-family: 'poppins', sans-serif;
     color: #663128;
     font-weight: 600;
     font-size: 17px;
 }
-.titulo h1{
+.tituloo h1{
     font-size: 80px;
     line-height: 60px;
     font-weight: 900;
 }
-.titulo h2{
+.tituloo h2{
     font-weight: 800;
     font-size: 40px;
     letter-spacing: 2.8vh;
     margin-left: 1vw;
 }
 
-.titulo p{
+.tituloo p{
    font-weight: 600;
    font-size: 12px;
    line-height: 3.5vh;
@@ -94,4 +90,9 @@
 .desenho img{
     width: 60vh;
     height: 60vh;
+}
+footer{
+    background: #7C4032;
+    width: auto;
+    height: 60px;
 }
